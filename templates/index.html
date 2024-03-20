@@ -1,0 +1,807 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+<title>Oral Cancer</title>
+<!--meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="Roof Houses Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web Template, 
+         Smartphone Compatible web Template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+	<script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        },
+		false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+		<!-- bootstrap style sheet -->
+			<link href="{% static '/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" />
+		<!-- fontawesome -->
+			<link href="{% static '/css/fontawesome-all.min.css' %}" rel="stylesheet" type="text/css" media="all">
+		<!-- gallery css -->
+			<link href="{% static '/css/prettyPhoto.css' %}" rel="stylesheet" type="text/css" />
+		<!-- stylesheets-->
+			<link href="{% static '/css/style.css' %}" rel='stylesheet' type='text/css' media="all">
+		
+
+
+		<link href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+		<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+</head>
+<body>
+<!-- nav -->
+<header>
+<nav class="navbar navbar-expand-lg navbar-light">
+  <h1><a class="navbar-brand" href="index">Cancer</a></h1>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link scroll" href="/">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link scroll" href="#about">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link scroll" href="#services">SERVICES</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="image">TESTING</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link scroll" href="#gallery">GALLERY</a>
+      </li>
+	 
+	  <li class="nav-item">
+        <a class="nav-link scroll" href="#contact">CONTACT</a>
+      </li>
+
+	  <li class="nav-item">
+        <a class="nav-link" href="login">LOGIN</a>
+      </li>
+	  
+    </ul>
+  </div>
+</nav>
+</header>
+<!-- //nav -->
+<!-- banner -->
+<div class="banner">
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				  <ol class="carousel-indicators">
+					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				  </ol>
+				  <div class="carousel-inner">
+					<div class="carousel-item active">
+					  <img class="d-block" src="{% static '/images/b1.jpg' %}" alt="First slide">
+					<div class="carousel-caption ">
+					</div>
+					</div>
+					<div class="carousel-item">
+					  <img class="d-block" src="{% static '/images/b2.jpg' %}" alt="Second slide">
+					<div class="carousel-caption ">
+					</div>
+					</div>
+					<div class="carousel-item">
+					  <img class="d-block" src="{% static '/images/b3.jpg' %}" alt="Third slide">
+					<div class="carousel-caption">
+					</div>		
+					</div>
+				  </div>
+				  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				  </a>
+				</div>
+</div>
+<!-- //banner -->
+<!-- about -->
+			<div class="about py-lg-5 py-md-4 py-3" id="about">
+				<div class="container py-sm-5 py-4">
+				
+				  <div class="row">
+					<div class="col-md-6 col-sm about-left">
+					  {% comment %} <img src="{% static '/images/ab.jpg' %}" alt="image" /> {% endcomment %}
+					</div>
+					<div class="col-md-6 col-sm about-right">
+						<div class="title-heading-about">
+							<h3>ABOUT US</h3>
+							<h4>ABOUT</h4>
+						</div>
+					   <p>oral cancer, is where a tumour develops in a part of the mouth. It may be on the surface of the tongue, the inside of the cheeks, the roof of the mouth (palate), the lips or gums.
+						Tumours can also develop in the glands that produce saliva, the tonsils at the back of the mouth, and the part of the throat connecting your mouth to your windpipe (pharynx).</p>
+
+							<div class="modal fade" id="exampleModal33" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  <div class="modal-dialog" role="document">
+								<div class="modal-content">
+								  <div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+									</button>
+								  </div>
+								  <div class="modal-body">
+									<img src="{% static '/images/ab.jpg' %}" alt="image" />
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+										standard dummy text.</p>
+								  </div>
+								  
+								</div>
+							  </div>
+							</div>
+					</div>
+					
+				  </div>
+				</div>
+			</div>
+<!-- about -->
+<!-- services -->
+<section class="services py-lg-5 py-md-4 py-3" id="services">
+	<div class="container py-sm-5 py-4">
+				<div class="title-heading text-center mb-sm-5 mb-4">
+					<h3>SERVICE</h3>
+					<h4>SERVICE</h4>
+				</div>
+		<div class="row">
+				<div class="col-lg-4 col-md-6 agileits_banner_bottom_left">
+					<div class="agileinfo_banner_bottom_pos">
+						<div class="row w3_agileits_banner_bottom_pos_grid">
+							<div class="col-3 wthree_banner_bottom_grid_left">
+								<div class="agile_banner_bottom_grid_left_grid hvr-radial-out text-center">
+									<i class="fab fa-steam" aria-hidden="true"></i>
+								</div>
+							</div>
+							<div class="col-9 wthree_banner_bottom_grid_right">
+								<h4 class="sub_service_agileits text-uppercase mb-2">Best Docters</h4>
+								<p class="mb-2">But I must explain to you how all this mistaken idea of denouncing pleasure.</p>
+								<div class="agileits-button two service">
+									<a class="btn btn-primary btn-lg  text-uppercase" href="#" data-toggle="modal" data-target="#exampleModal33" role="button">Read More »</a>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 agileits_banner_bottom_left mt-md-0 mt-4">
+					<div class="agileinfo_banner_bottom_pos">
+						<div class="row w3_agileits_banner_bottom_pos_grid">
+							<div class="col-3 wthree_banner_bottom_grid_left">
+								<div class="agile_banner_bottom_grid_left_grid hvr-radial-out text-center">
+									<i class="fa fa-rocket" aria-hidden="true"></i>
+								</div>
+							</div>
+							<div class="col-9 wthree_banner_bottom_grid_right">
+								<h4 class="sub_service_agileits text-uppercase mb-2">Best Hospitals</h4>
+								<p class="mb-2">But I must explain to you how all this mistaken idea of denouncing pleasure.</p>
+								<div class="agileits-button two service">
+									<a class="btn btn-primary btn-lg  text-uppercase" href="#" data-toggle="modal" data-target="#exampleModal33" role="button">Read More »</a>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 agileits_banner_bottom_left mt-lg-0 mt-md-5 mt-4">
+					<div class="agileinfo_banner_bottom_pos">
+						<div class="row w3_agileits_banner_bottom_pos_grid">
+							<div class="col-3 wthree_banner_bottom_grid_left">
+								<div class="agile_banner_bottom_grid_left_grid hvr-radial-out text-center">
+									<i class="fa fa-paint-brush" aria-hidden="true"></i>
+								</div>
+							</div>
+							<div class="col-9 wthree_banner_bottom_grid_right">
+								<h4 class="sub_service_agileits text-uppercase mb-2">Online Appointment</h4>
+								<p class="mb-2">But I must explain to you how all this mistaken idea of denouncing pleasure.</p>
+								<div class="agileits-button two service">
+									<a class="btn btn-primary btn-lg  text-uppercase" href="#" data-toggle="modal" data-target="#exampleModal33" role="button">Read More »</a>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 agileits_banner_bottom_left mt-md-5 mt-4">
+					<div class="agileinfo_banner_bottom_pos">
+						<div class="row w3_agileits_banner_bottom_pos_grid">
+							<div class="col-3 wthree_banner_bottom_grid_left">
+								<div class="agile_banner_bottom_grid_left_grid hvr-radial-out text-center">
+									<i class="fas fa-industry" aria-hidden="true"></i>
+								</div>
+							</div>
+							<div class="col-9 wthree_banner_bottom_grid_right">
+								<h4 class="sub_service_agileits text-uppercase mb-2">Best Hospitals</h4>
+								<p class="mb-2">But I must explain to you how all this mistaken idea of denouncing pleasure.</p>
+								<div class="agileits-button two service">
+									<a class="btn btn-primary btn-lg  text-uppercase" href="#" data-toggle="modal" data-target="#exampleModal33" role="button">Read More »</a>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 agileits_banner_bottom_left mt-md-5 mt-4">
+					<div class="agileinfo_banner_bottom_pos">
+						<div class="row w3_agileits_banner_bottom_pos_grid">
+							<div class="col-3 wthree_banner_bottom_grid_left">
+								<div class="agile_banner_bottom_grid_left_grid hvr-radial-out text-center">
+									<i class="fa fa-fire" aria-hidden="true"></i>
+								</div>
+							</div>
+							<div class="col-9 wthree_banner_bottom_grid_right">
+								<h4 class="sub_service_agileits text-uppercase mb-2">Best Hospitals</h4>
+								<p class="mb-2">But I must explain to you how all this mistaken idea of denouncing pleasure.</p>
+								<div class="agileits-button two service">
+									<a class="btn btn-primary btn-lg  text-uppercase" href="#" data-toggle="modal" data-target="#exampleModal33" role="button">Read More »</a>
+								
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 agileits_banner_bottom_left mt-md-5 mt-4">
+					<div class="agileinfo_banner_bottom_pos">
+						<div class="row w3_agileits_banner_bottom_pos_grid">
+							<div class="col-3 wthree_banner_bottom_grid_left">
+								<div class="agile_banner_bottom_grid_left_grid hvr-radial-out text-center">
+									<i class="fas fa-cogs" aria-hidden="true"></i>
+								</div>
+							</div>
+							<div class="col-9 wthree_banner_bottom_grid_right">
+								<h4 class="sub_service_agileits text-uppercase mb-2">Quality Material</h4>
+								<p class="mb-2">Morbi viverra lacus commodo felis semper, eu iaculis lectus feugiat egestas erat.</p>
+								<div class="agileits-button two service">
+									<a class="btn btn-primary btn-lg text-uppercase" href="#" data-toggle="modal" data-target="#exampleModal33" role="button">Read More »</a>
+							
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</section>
+<!-- //services -->
+<!-- video section -->
+    <div class="video-w3l" data-vide-bg="video/1" style="position: relative;">
+		<div style="position: absolute; z-index: -1; inset: 0px; overflow: hidden; background-size: cover; background-repeat: no-repeat; background-position: 50% 50%;">
+        <video autoplay loop  muted style="margin: auto; position: absolute; z-index: -1; top: 50%; left: 50%; transform: translate(-50%, -50%); visibility: hidden; width: auto; height: 302px;">
+		<source src="{% static '/viedo/1.mp4' %}" type="viedo/1.mp4">
+		<source src="{% static '/viedo/1.mp4' %}" type="viedo/1.mp4">
+		<source src="{% static '/viedo/1.mp4' %}" type="viedo/1.mp4">
+		</video>
+		</div>
+			<h2>We Make Your Dreams As Real</h2>
+		<p>Contrary to popular belief, Lorem Ipsum is not simply random text</p>
+			<!-- Button trigger modal -->
+					<button type="button" class="btn btn-primary more-button3" data-toggle="modal" data-target="#exampleModal32">
+					  MORE INFO
+					</button>
+
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal32" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					  <div class="modal-dialog" role="document">
+						<div class="modal-content">
+						  <div class="modal-header">
+							<h5 class="modal-title">Modal title</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							  <span aria-hidden="true">&times;</span>
+							</button>
+						  </div>
+						  <div class="modal-body">
+							<img src="{% static '/images/contact.jpg' %}" alt="image" />
+							<p class="model-body-text-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+								standard dummy text.</p>
+						  </div>
+						  
+						</div>
+					  </div>
+					</div>
+    </div>
+<!-- //video section -->
+<!--advantages start here-->
+<div class="advantages">
+	<div class="container">
+		<div class="advantages-main">
+			 <h3>Project Mentor</h3>
+			<div class="col-md-7 advant-left">
+				<p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue weakness</p>
+				<ul>
+					<li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"> </span> <a href="#">To take a trivial which of us ever </a></li>
+					<li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"> </span> <a href="#">Idea denouncing pleasure praising</a></li>
+					<li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"> </span><a href="#">Neque porro quisquam dolorem ipsum </a></li>
+					<li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"> </span><a href="#">Quidem facilis expedita distinctio</a></li>
+					<li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"> </span> <a href="#">Idea denouncing pleasure praising</a></li>
+				</ul>
+			</div>
+			<div class="col-md-5 advant-right">
+				<a href="#"><img src="{% static '/images/doctor.png' %}" alt=""></a>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--advantages end here-->
+<!-- team -->
+		<div class="team py-lg-5 py-md-4 py-3" id="team">
+			<div class="container py-sm-5 py-4">
+			<div class="title-heading text-center mb-sm-5 mb-4">
+				<h3>TEAM</h3>
+				<h4>OUR TEAM</h4>
+			</div>
+				<div class="team_grids">
+				<div class="row">
+					<div class="col-md-3 team_grid text-center">
+						<img src="{% static '/images/t1.jpg' %}" alt=" " class="img-fluid" />
+						<h3>VISHAL KUMAR</h3>
+						<p class="team_gridp">Developer</p>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						<ul class="footer_list_icons team_icons">
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+							<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+
+						</ul>
+					</div>
+					<div class="col-md-3 team_grid text-center">
+						<img src="{% static '/images/t2.jpg' %}" alt=" " class="img-fluid" />
+						<h3>VISHAL KUMAR</h3>
+						<p class="team_gridp">Developer</p>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						<ul class="footer_list_icons team_icons">
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+							<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+
+						</ul>
+					</div>
+					<div class="col-md-3 team_grid text-center">
+						<img src="{% static '/images/t3.jpg' %}" alt=" " class="img-fluid" />
+						<h3>VISHAL KUMAR</h3>
+						<p class="team_gridp">Developer</p>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						<ul class="footer_list_icons team_icons">
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+							<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+
+						</ul>
+					</div>
+					<div class="col-md-3 team_grid text-center">
+						<img src="{% static '/images/t4.jpg' %}" alt=" " class="img-fluid" />
+						<h3>VISHAL KUMAR</h3>
+						<p class="team_gridp">Developer</p>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+						<ul class="footer_list_icons team_icons">
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+							<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+
+						</ul>
+					</div>
+				 </div>
+				</div>
+			</div>
+		</div>
+		<!-- team -->
+ 
+ <!--gallery  -->
+    <section class="wthree-row w3-gallery py-lg-5 py-md-4 py-3" id="gallery">
+        <div class="container-fluid text-center">
+            <div class="title-heading text-center">
+				<h3>GALLERY</h3>
+				<h4>GALLERY</h4>
+			</div>
+            <ul class="portfolio-categ filter pt-5 pt-sm-4 mb-5 mb-sm-4 text-center">
+                <li class="port-filter all active">
+                    <a href="#">All</a>
+                </li>
+                <li class="cat-item-1">
+                    <a href="#" title="Category 1">Cancer</a>
+                </li>
+                <li class="cat-item-2">
+                    <a href="#" title="Category 2">Non-Cancer</a>
+                </li>
+            </ul>
+            <ul class="portfolio-area clearfix">
+            	 <li class="portfolio-item2" data-id="id-0" data-type="cat-item-4">
+                    <div>
+                        <a class="image-gal" href="{% static '/images/g1.jpg'%}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static '/images/g1.jpg'%}" class="img-fluid w3layouts agileits" alt="">
+
+                        </a>
+                    </div>
+                </li>
+                <li class="portfolio-item2" data-id="id-1" data-type="cat-item-2">
+                    <div>
+                        <a class="image-gal" href="{% static '/images/g2.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static '/images/g2.jpg'%}" class="img-fluid w3layouts agileits" alt="">
+
+                        </a>
+                    </div>
+                </li>
+                <li class="portfolio-item2" data-id="id-2" data-type="cat-item-1">
+                    <div>
+                        <a class="image-gal" href="{% static '/images/g3.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static '/images/g3.jpg' %}" class="img-fluid w3layouts agileits image_hight" alt="">
+
+                        </a>
+                    </div>
+                </li>
+                 <li class="portfolio-item2" data-id="id-3" data-type="cat-item-4">
+                    <div>
+                        <a class="image-gal" href="{% static '/images/g4.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static '/images/g4.jpg' %}" class="img-fluid w3layouts agileits" alt="">
+
+                        </a>
+                    </div>
+                </li>
+                <li class="portfolio-item2" data-id="id-4" data-type="cat-item-3">
+                    <div>
+                        <a class="image-gal" href="{% static '/images/g5.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static '/images/g5.jpg' %}" class="img-fluid w3layouts agileits" alt="">
+
+                        </a>
+                    </div>
+                </li>
+                <li class="portfolio-item2" data-id="id-5" data-type="cat-item-2">
+                    <div>
+                        <a class="image-gal" href="{% static '/images/g6.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static '/images/g6.jpg' %}" class="img-fluid w3layouts agileits image_hight" alt="">
+
+                        </a>
+                    </div>
+                </li>
+			
+                <li class="portfolio-item2" data-id="id-6" data-type="cat-item-1">
+                    <div>
+                        <a class="image-gal" href="{% static '/images/g7.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static '/images/g7.jpg' %}" class="img-fluid w3layouts agileits image_hight" style="width:380; height:250;" alt="">
+
+                        </a>
+                    </div>
+                </li>
+                <li class="portfolio-item2" data-id="id-7" data-type="cat-item-1">
+                    <div>
+                        <a class="image-gal" href="{% static '/images/g8.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static '/images/g8.jpg' %}" class="img-fluid w3layouts agileits image_hight" alt="">
+
+                        </a>
+                    </div>
+                </li>
+
+                 {% comment %} <li class="portfolio-item2" data-id="id-9" data-type="cat-item-4">
+                    <div>
+                        <a class="image-gal" href="{% static '/images/g9.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static '/images/g9.jpg' %}" class="img-fluid w3layouts agileits" alt="">
+
+                        </a>
+                    </div>
+                </li>
+				 
+                 <li class="portfolio-item2" data-id="id-9" data-type="cat-item-3">
+                    <div>
+                        <a class="image-gal" href="{% static '/images/g10.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static '/images/g10.jpg' %}" class="img-fluid w3layouts agileits" alt="">
+
+                        </a>
+                    </div>
+                </li> {% endcomment %}
+
+                <li class="portfolio-item2" data-id="id-10" data-type="cat-item-2">
+                    <div>
+                        <a class="image-gal" href="{% static '/images/g11.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static '/images/g11.jpg' %}" class="img-fluid w3layouts agileits" alt="">
+
+                        </a>
+                    </div>
+                </li>
+                <li class="portfolio-item2" data-id="id-8" data-type="cat-item-1">
+                    <div>
+                        <a class="image-gal" href="{% static '/images/g12.jpg' %}" data-gal="prettyPhoto[gallery]">
+
+                            <img src="{% static '/images/g12.jpg' %}" class="img-fluid w3layouts agileits" alt="">
+
+                        </a>
+                    </div>
+				</li>
+            </ul>
+            <!--end portfolio-area -->
+
+        </div>
+        <!-- //gallery container -->
+    </section>
+    <!-- //gallery -->
+<!-- contact -->
+		<div class="contact py-lg-5 py-md-4 py-3" id="contact">
+		<div class="container py-sm-5 py-4">
+			<div class="title-heading text-center mb-sm-5 mb-4">
+				<h3>CONTACT</h3>
+				<h4>CONTACT US</h4>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-sm-6">
+				<div class="contact-left">
+					<h3>About Us</h3>
+					<p class="para-w3-agileits">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tortor est, malesuada at nulla in.</p>
+					<h3>Find Us</h3>
+					<div class="add-info">
+						<p>Excel Engineering College,India</p>
+					</div>
+					<div class="add-info">
+						<p>+91-7991198925</p>
+					</div>
+					<div class="add-info">
+						<p><a href="vishalgupta.itcs@gamil.com">vishalgupta.itcs@gamil.com</a></p>
+					</div>
+					<ul class="contact-social-icons">
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+							<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+					</ul>
+				</div>
+				</div>
+				<div class="col-lg-8 col-sm-6">
+				<div class="contact-middle">
+					<h3>Write to Us</h3>
+					<form action="#" method="post">
+					  <div class="form-group">
+						<label>Name</label>
+						 <input type="text" class="form-control" placeholder="First name" required="">
+					  </div>
+					  <div class="form-group">
+						<label>Email address</label>
+						<input type="email" class="form-control"  placeholder="Email" required="">						
+					  </div>
+						<div class="form-group">
+						<label>Example textarea</label>
+							<textarea class="form-control" rows="3" required=""></textarea>
+						</div>
+					  <button type="submit" class="btn btn-2">Submit</button>
+					</form>
+				</div>
+				
+				</div>
+		</div>
+	</div>
+	</div>
+	
+	<div class="map-w3ls">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1644.1377945562836!2d77.76902651530744!3d11.448081195074252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba95dbd720a5dab%3A0xad53224540a44024!2sEXCEL%20ENGINEERING%20COLLEGE%20-%20AUTONOMOUS!5e0!3m2!1sen!2sin!4v1678969935975!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+	</div>
+	<div class="w3layouts_newsletter_right">
+		<div class="container">
+		<div class="row">
+			<div class="col-md-4 n-left">
+				<h6>Newsletter</h6>
+			</div>
+			<div class="col-md-8 n-right">
+				<form action="#" method="post">
+					<div class="input-flds">
+						<input type="text" name="Name" placeholder="Name" required="">
+					</div>
+					<div class="input-flds">
+						<input type="email" name="Email" placeholder="Email" required="">
+					</div>
+					<div class="input-flds">
+						<input type="submit" value="Subscribe">
+					</div>
+				</form>
+			</div>
+		</div>
+		</div>
+	</div>
+<!-- //contact -->
+
+<!--footer -->
+<div class="footer footer_w3layouts_section_1its">
+	<div class="container">
+		<div class="footer-top">
+		<div class="row">
+			<div class="col-md-3 footer-grid_section_1its_w3">
+				<div class="footer-title">
+					<h3>About Us</h3>
+				</div>
+				<div class="footer-text">
+					<p>Curabitur non nulla sit amet nislinit tempus convallis quis ac lectus.Nulla porttitor accumsana tincidunt.</p>
+					<ul class="social_section_1info">
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+							<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-3 footer-grid_section_1its_w3">
+				<div class="footer-title">
+					<h3>Contact</h3>
+				</div>
+				<div class="contact-info">
+					<p><i class="fas fa-map-marker"></i>Excel Engineering College, Komarapalayam, Tamil Nadu.</p>
+					<p><i class="fas fa-phone"></i>Mobile : +91-7991198925</p>
+					<p><i class="far fa-envelope"></i>Email : <a href="vishalgupta.itcs@gamil.com">vishalgupta.itcs@gamil.com</a></p>
+				</div>
+			</div>
+			<div class="col-md-2 footer-grid_section_1its_w3">
+				<div class="footer-title">
+					<h3>Navigation</h3>
+				</div>
+				<ul class="links">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#about" class="scroll">About</a></li>
+					<li><a href="#services" class="scroll">Services</a></li>
+					<li><a href="#team" class="scroll">Team</a></li>
+					<li><a href="#gallery" class="scroll">Gallery</a></li>
+					<li><a href="#news" class="scroll">news</a></li>
+					<li><a href="#contact" class="scroll">contact</a></li>
+					<li><a href="Login" class="scroll">Login</a></li>
+				</ul>
+			</div>
+			<div class="col-md-4 footer-grid_section_1its_w3">
+				<div class="footer-title">
+					<h3>Latest news</h3>
+				</div>
+				<div class="d-flex justify-content-around">
+						{% comment %} <a href="#" class="col-4 fot_tp p-2">
+							<img src="{% static '/images/g1.jpg' %}" class="img-fluid" alt="image">
+						</a>
+						<a href="#" class="col-4 fot_tp p-2">
+							<img src="{% static '/images/g2.jpg' %}" class="img-fluid" alt="image">
+						</a>
+						<a href="#" class="col-4 fot_tp p-2">
+							<img src="{% static '/images/g3.jpg' %}" class="img-fluid" alt="image">
+						</a> {% endcomment %}
+					</div>
+					<div class="d-flex justify-content-around">
+						{% comment %} <a href="#" class="col-4 fot_tp p-2">
+							<img src="{% static '/images/g4.jpg' %}" class="img-fluid" alt="image">
+						</a>
+						<a href="#" class="col-4 fot_tp p-2">
+							<img src="{% static '/images/g5.jpg' %}" class="img-fluid" alt="image">
+						</a>
+						<a href="#" class="col-4 fot_tp p-2">
+							<img src="{% static '/images/g6.jpg'%}" class="img-fluid" alt="image">
+						</a> {% endcomment %}
+					</div>
+
+			</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p>© All Rights Reserved | Design by <a href="#">VISHAL KUMAR</a> </p>
+		</div>
+	</div>
+</div>
+<!-- //footer -->
+
+
+	<!-- js -->
+		<script src="{% static '/js/jquery.min.v3.js' %}"></script>
+		<script src="{% static '/js/bootstrap.min.js' %}"></script>
+    <!-- //js -->
+	
+	
+	<!-- stats -->
+		<script src="{% static '/js/jquery.waypoints.min.js' %}"></script>
+		<script src="{% static '/js/jquery.countup.js' %}"></script>
+		<script>
+			$('.counter').countUp();
+		</script>
+    <!-- //stats -->
+	
+
+	<!-- start-smooth-scrolling -->
+    <script src="{% static '/js/move-top.js' %}"></script>
+    <script src="{% static '/js/easing.js' %}"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //end-smooth-scrolling -->
+    <!-- smooth-scrolling-of-move-up -->
+    <script>
+        $(document).ready(function () {
+            /*
+            var defaults = {
+            	containerID: 'toTop', // fading element id
+            	containerHoverID: 'toTopHover', // fading element hover id
+            	scrollSpeed: 1200,
+            	easingType: 'linear' 
+            };
+            */
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <script src="{% static '/js/SmoothScroll.min.js' %}"></script>
+	
+    <!-- //smooth-scrolling-of-move-up -->
+<!-- start-smooth-scrolling -->
+    <script src="{% static '/js/move-top.js' %}"></script>
+    <script src="{% static '/js/easing.js' %}"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //end-smooth-scrolling -->
+    <!-- smooth-scrolling-of-move-up -->
+    <script>
+        $(document).ready(function () {
+            /*
+            var defaults = {
+            	containerID: 'toTop', // fading element id
+            	containerHoverID: 'toTopHover', // fading element hover id
+            	scrollSpeed: 1200,
+            	easingType: 'linear' 
+            };
+            */
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <script src="{% static '/js/SmoothScroll.min.js' %}"></script>
+	
+    <!-- //smooth-scrolling-of-move-up -->
+
+
+	<!-- jQuery-Photo-filter-lightbox-Gallery-plugin -->
+    <script src="{% static '/js/jquery-1.7.2.js' %}"></script>
+    <script src="{% static '/js/jquery.quicksand.js' %}"></script>
+    <script src="{% static '/js/script.js' %}"></script>
+    <script src="{% static '/js/jquery.prettyPhoto.js' %}"></script>
+    <!-- //jQuery-Photo-filter-lightbox-Gallery-plugin -->
+	
+	<!-- video js (background) -->
+		<script src="{% static '/js/jquery.vide.min.js' %}"></script>
+    <!-- //video js (background) -->
+	
+</body>
+</html>
